@@ -3,11 +3,10 @@ body{
    font-size: 20px;
    font-family: Helvetica;
    flex-wrap: wrap;
-   color: white;
-   background-color: floralwhite;
 }
 fieldset{
 border-color: darkslategray;
 background-color: darkslategray;
+color: white;
 border-width: 5px;
 }
