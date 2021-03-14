@@ -4,7 +4,13 @@ body{
    flex-wrap: wrap;
 }
 fieldset{
-   font-family: Helvetica;
-   border-width: 5px;
-   color: black;
+   background-color: darkslategray; 
+   font-size: 30px; 
+   color: white;
+}
+p{
+   text-align: center; 
+   background-color: darkslategray; 
+   font-size: 50px; 
+   color: white;
 }
