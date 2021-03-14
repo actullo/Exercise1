@@ -14,3 +14,9 @@ p{
    font-size: 50px; 
    color: white;
 }
+label{
+   text-align: center; 
+   background-color: darkslategray; 
+   font-size: 50px; 
+   color: white;
+}
