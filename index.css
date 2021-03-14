@@ -1,22 +1,16 @@
 body{
-   font-size: 20px;
    font-family: Helvetica;
    flex-wrap: wrap;
 }
 fieldset{
    background-color: darkslategray; 
-   font-size: 30px; 
    color: white;
 }
 p{
-   text-align: center; 
    background-color: darkslategray; 
-   font-size: 20px; 
    color: white;
 }
 label{
-   text-align: center; 
    background-color: darkslategray; 
-   font-size: 20px; 
    color: white;
 }
