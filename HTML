@@ -1,16 +1,61 @@
-<body>
- <fieldset>
-  <h1> Name: Adrian Neil C. Tullo <h1>
-  <br>
-  <h2> Nickname: Adrian <h2>
-  <br>
-  <h2> Favorite CMSC subject so far and why: <h2>
-  <br>
-  <h2> Favorite GE so far and why <h2>
-  <br>
-  <h2> Favorite programming language so far and why <h2>
-  <br>
-  <h2> Favorite food <h2>
-  <br>
- <fieldset>
-<body>
+<html>
+	<head>
+		<title>Game Review</title>
+	</head>
+	<body style="background-image: url('background2.jpg');">
+		<p style="text-align: center; background-color: darkslategray; font-size: 50px; color: white; "> Game Review</p>
+		<fieldset style="border-color: darkslategray; background-color: floralwhite; border-width: 5px; ">
+			<legend style="background-color: darkslategray; font-size: 30px; color: white;"> <strong> Ni no Kuni: Wrath of the White Witch</strong></legend>
+			<br>
+			<img src="ninokuni.jpg" alt="ninokuni" class="center" width="500">
+			<br>
+			<br>
+			<label><strong>Introduction:</strong></label>
+			<p>Ni no Kuni is a series of role-playing video games published by Bandai Namco worldwide and developed and published by Level-5 in Japan. The first games in the series chiefly follow the young Oliver, and his journey to another world to save his mother and stop the beckoning evil. The sequel follows Evan Pettiwhisker Tildrum, a boy king who is usurped from his castle, and sets out to reclaim his kingdom. The games utilize several magic elements, allowing players to use magical abilities during gameplay, as well as creatures known as familiars, which can be tamed for suitability during battle. </p>
+			<br>
+			<label><strong>Gameplay:</strong></label>
+			<p>Ni no Kuni: Wrath of the White Witch is a role-playing game that uses a third-person perspective. Players complete quests—linear scenarios with set objectives—to progress through the story. Outside of quests, players can freely roam the overworld. Players explore towns, villages, dungeons and dangerous places scattered throughout the world, and possess the ability to travel between the world and Oliver's hometown of Motorville. Upon leaving a location, players enter the World Map, which can be used to select a destination. The world may be fully explored from the beginning of the game without restrictions, although story progress unlocks more gameplay content and forms of transport to navigate the world: players initially run to navigate the world, though later gain the ability to travel by boat, or on the back of a dragon.</p>
+			<br>
+			<label><strong>Plot:</strong></label>
+			<p>Ni no Kuni follows the journey of Oliver, a resident of Motorville. While trying out a new vehicle designed by his friend Philip, Oliver almost drowns, but is saved by his mother Allie; however, she immediately dies from heart problems after saving him. As Oliver cries, his tears cause his doll, a gift from his mother, to come to life and reveal itself as a fairy named Drippy, who tells Oliver that he is from another world where an evil wizard named Shadar took control. He also tells Oliver that each person from his world has a "soulmate", a person that shares a link with someone in Oliver's world, and that his mother looks very much like a great sage, Alicia, who was captured by Shadar. Realizing that Alicia must have been Allie's soulmate, Oliver sets out with Drippy to travel to the other world and rescue Alicia in the hope that doing so will bring Allie back in his world.</p>
+		</fieldset>
+		<br>
+		<br>
+		<fieldset style="border-color: darkslategray; background-color: floralwhite; border-width: 5px; ">
+			<legend style="background-color: darkslategray; font-size: 20px; color: white;"> <strong> User Review</strong></legend>
+			<br>
+			<label> <strong>Username: </strong><input type="text" name="username" id="name"></label>
+
+			<br>
+			<br>
+			<label> <strong>Rating:</strong></label>
+			<div id ="stars">
+			<label><input type="radio" name="stars" value="✨">1 Star!</label>
+			<label><input type="radio" name="stars" value="✨✨">2 Star!</label>
+			<label><input type="radio" name="stars" value="✨✨✨">3 Star!</label>
+			<label><input type="radio" name="stars" value="✨✨✨✨">4 Star!</label>
+			<label><input type="radio" name="stars" value="✨✨✨✨✨">5 Star!</label>
+			</div>
+
+			<br>
+			<br>
+			<label><strong>User Review</strong></label>
+			<br>
+			<label><textarea rows="10" cols="50" placeholder="Type your review here!" id="review"></textarea></label>
+			<br>
+			<br>
+			<button onclick="game_review()" style=" font-size: 20px;"> <strong> Post!!</strong></button>
+		</fieldset>
+		<br>
+		<br>
+		<fieldset style="border-color: darkslategray; background-color: floralwhite; border-width: 5px; ">
+			<legend style="background-color: darkslategray; color: white; font-size: 20px;"><strong>Reviews</strong></legend>
+			<ul id="game-review">
+				
+			</ul>
+			
+		</fieldset>
+		<script src="tullo_exer12.js"></script>
+
+	</body>
+</html>
