@@ -1,0 +1,23 @@
+body{
+   background-color: darkslategray; 
+   color: white;
+   font-family: Helvetica;
+   flex-wrap: wrap;
+   font-size: 12px;
+
+}
+fieldset{
+   background-color: darkslategray; 
+   color: white;
+   font-size: 10px;
+}
+p{
+   background-color: darkslategray; 
+   color: white;
+   font-size: 10px;
+}
+label{
+   background-color: darkslategray; 
+   color: white;
+   font-size: 12px;
+}
