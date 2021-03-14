@@ -5,7 +5,6 @@ body{
    flex-wrap: wrap;
 }
 fieldset{
-border-color: darkslategray;
-color: black;
-border-width: 5px;
+   font-family: Helvetica;
+   border-width: 5px;
 }
