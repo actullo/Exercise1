@@ -6,7 +6,6 @@ body{
 }
 fieldset{
 border-color: darkslategray;
-background-color: darkslategray;
-color: white;
+color: black;
 border-width: 5px;
 }
