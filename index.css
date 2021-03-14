@@ -4,10 +4,10 @@ body{
    font-family: Helvetica;
    flex-wrap: wrap;
    color: white;
-   background-color: grey;
+   background-color: floralwhite;
 }
 fieldset{
 border-color: darkslategray;
-background-color: floralwhite;
+background-color: darkslategray;
 border-width: 5px;
 }
