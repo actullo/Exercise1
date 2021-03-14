@@ -9,8 +9,10 @@ fieldset{
 p{
    background-color: darkslategray; 
    color: white;
+   font-size: 10px;
 }
 label{
    background-color: darkslategray; 
    color: white;
+   font-size: 12px;
 }
