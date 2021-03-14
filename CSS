@@ -1,0 +1,9 @@
+body{
+   text-align: center;
+   font-size: 20px;
+   font-family: Helvetica;
+   flex-wrap: wrap;
+   color: white;
+   background-color: grey;
+}
+
